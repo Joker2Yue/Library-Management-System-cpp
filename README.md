@@ -81,10 +81,10 @@
 
 #### 系统详解
 <img width="1154" alt="Book" src="https://user-images.githubusercontent.com/95990919/209258097-4f0fb0a4-06a3-43ac-8e2f-6c9eb3cb7a9a.png">
-![IS1T JPPEGG)@9{C7$~~4O4](https://user-images.githubusercontent.com/95990919/209258182-8295695d-08aa-48dd-867b-13679e4f3ff6.jpg)
-![流程图](https://user-images.githubusercontent.com/95990919/209258284-0b153a7e-f9d3-4b99-b645-3321c7f5de78.png)
-![类图](https://user-images.githubusercontent.com/95990919/209258301-8ce95d23-8d8f-4364-bab8-acba66d3c5b5.jpg)
-![图书管理系统](https://user-images.githubusercontent.com/95990919/209258402-7f88e4e3-4ed7-499f-855f-e5f1bf5bd67f.png)
+![Book](https://user-images.githubusercontent.com/95990919/209258786-9c32954f-7c51-42dc-96cc-33f9f15beba9.png)
+![IYGM7R13IKLG~TDY@W9A 72](https://user-images.githubusercontent.com/95990919/209259022-af2d590f-6dbe-499d-8174-856457189b6b.jpg)
+![IS1T JPPEGG)@9{C7$~~4O4](https://user-images.githubusercontent.com/95990919/209259076-ad954fee-3b41-486f-8b8e-639c9168d4c0.jpg)
+
 
 
 #### 系统截图
