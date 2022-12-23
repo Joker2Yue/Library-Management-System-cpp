@@ -4,77 +4,77 @@
  * @LastEditors: Joker Yue
  * @LastEditTime: 2022-11-20 18:15:10
  * @FilePath: \BookEditOnly\LibraryProgram.cpp
- * @Description:³ÌÐòÈë¿Ú
+ * @Description:ç¨‹åºå…¥å£
  */
-/*¸üÐÂÈÕÖ¾£º
-10-11-2022£ºµÚÒ»°æ
-10-11-2022: ÀàµÄ×ÜÌåÉè¼Æ:    Çë²Î¼û"/src/Book.svg"ºÍ"/src/Book.md"
-10-11-2022: SystemBasic:    Ìí¼ÓÁËSystemBasicÀà²¢Éè¼ÆÁË´óÁ¿·½·¨ÓÃÓÚ¼Ì³ÐÓëÊ¹ÓÃ
-10-11-2022: Book:           Ìí¼ÓÁËBookÀà²¢Éè¼ÆÁË´óÁ¿·½·¨ÓÃÓÚÖ÷ÒªµÄÊý¾ÝÓë·½·¨
-10-11-2022£ºBook:           Ìí¼ÓÁË¹ÜÀíÔ±µÇÂ¼¹¦ÄÜÓë½çÃæ
-10-11-2022£ºSystemBasic:    Ìí¼ÓÁËÊäÈëÃÜÂëÊ±µÄÃÜÂëÒþ²Ø¹¦ÄÜ
-10-11-2022£ºSystemBasic:    ÐÞ¸´ÁË²¿·Ö½çÃæÅÅ°æ³ö´íµÄÎÊÌâ
-10-11-2022£ºSystemBasic:    Ìí¼ÓÁË²Ù×÷ÅÐ¶Ï£ºÊäÈën/y yesÒÔ¼ÌÐø
-10-11-2022£ºSystemBasic:    ÐÞ¸´ÁË»º³åÇøÒç³öµ¼ÖÂÏµÍ³ÎÞ·¨Õý³£ÍË³öµÄÎÊÌâ
-10-11-2022£ºSystemBasic:    Ìí¼ÓÁËÊý×ÖºÏ·¨ÐÔµÄ·½·¨
-10-11-2022£ºSystemBasic:    Ìí¼ÓÁËÅÐ¶ÏÊ§Îó´ÎÊýµÄ·½·¨
-11-11-2022£ºBook:           ÐÞ¸´ÁËbookData.txtÎÞ·¨¶ÁÈ¡µÄÎÊÌâ
-11-11-2022£ºBook:           Ìí¼ÓÁËÍ¼Êé¼Û¸ñºÏ·¨ÐÔµÄÅÐ¶Ï
-11-11-2022£ºBook:           Ìí¼ÓÁËÔÚÍ¼Êé²é¿´Ò³ÃæÍ¼Êé¿â´æµÄÅÐ¶Ï
-11-11-2022£ºBook:           ÐÞ¸´ÁËÍ¼Êé²é¿´Ò³ÃæµÄ½è³ö×´Ì¬´íÎóµÄÎÊÌâ
-11-11-2022£ºSystemBasic:    ÐÞ¸´ÁËÖØÐÂ½øÈëÏµÍ³Ê±Êé¼®²Ö¿â¶ªÊ§µÄÎÊÌâ
-11-11-2022£ºSystemBasic:    Ìí¼ÓÁËÎÞbookData.txtµÄÐÞ¸´¹¦ÄÜ
-11-11-2022£ºBook:           Ìí¼ÓÁËÔÚÌí¼ÓÊé¼®Ê±Í¼ÊéISBN±àºÅµÄÅÐ¶Ï¹¦ÄÜ
-11-11-2022£ºBook:           ÐÞ¸´ÁËÔÚÌí¼ÓÍ¼ÊéÊ±£¬Í¼Êé¼Û¸ñ²»ºÏ·¨È´ÎÞ·¨ÅÐ¶ÏµÄÎÊÌâ
-11-11-2022: Book:           Ìí¼ÓÁËÉ¾³ýÈ«²¿Êé¼®µÄ¹¦ÄÜ
-11-11-2022: SystemBasic:    Ìí¼ÓÁË²ÊÉ«×ÖÌå
-11-11-2022: SystemBasic:    Ìí¼ÓÁËÀ¶ÆÁºÍÐÞ¸´Ä£Ê½ :-)
-11-11-2022: SystemBasic:    ÐÞ¸ÄÁËbookData.txtµÄÐÞ¸´½çÃæ
-12-11-2022£ºSystemBasic:    ÐÞ¸´ÁËÔÚÀ¶ÆÁÊ±½ø¶ÈÌõ³¬³ö100%µÄÎÊÌâ
-12-11-2022£ºSystemBasic:    Ìí¼ÓÁËÓÃÓÚ»ñÈ¡ÏµÍ³Ê±¼äµÄ·½·¨
-12-11-2022£ºBook:           ÉèÖÃÁËÓÃ»§½èÔÄÊ±×Ô¶¯ÌîÐ´½èÔÄÊ±¼ä
+/*æ›´æ–°æ—¥å¿—ï¼š
+10-11-2022ï¼šç¬¬ä¸€ç‰ˆ
+10-11-2022: ç±»çš„æ€»ä½“è®¾è®¡:    è¯·å‚è§"/src/Book.svg"å’Œ"/src/Book.md"
+10-11-2022: SystemBasic:    æ·»åŠ äº†SystemBasicç±»å¹¶è®¾è®¡äº†å¤§é‡æ–¹æ³•ç”¨äºŽç»§æ‰¿ä¸Žä½¿ç”¨
+10-11-2022: Book:           æ·»åŠ äº†Bookç±»å¹¶è®¾è®¡äº†å¤§é‡æ–¹æ³•ç”¨äºŽä¸»è¦çš„æ•°æ®ä¸Žæ–¹æ³•
+10-11-2022ï¼šBook:           æ·»åŠ äº†ç®¡ç†å‘˜ç™»å½•åŠŸèƒ½ä¸Žç•Œé¢
+10-11-2022ï¼šSystemBasic:    æ·»åŠ äº†è¾“å…¥å¯†ç æ—¶çš„å¯†ç éšè—åŠŸèƒ½
+10-11-2022ï¼šSystemBasic:    ä¿®å¤äº†éƒ¨åˆ†ç•Œé¢æŽ’ç‰ˆå‡ºé”™çš„é—®é¢˜
+10-11-2022ï¼šSystemBasic:    æ·»åŠ äº†æ“ä½œåˆ¤æ–­ï¼šè¾“å…¥n/y yesä»¥ç»§ç»­
+10-11-2022ï¼šSystemBasic:    ä¿®å¤äº†ç¼“å†²åŒºæº¢å‡ºå¯¼è‡´ç³»ç»Ÿæ— æ³•æ­£å¸¸é€€å‡ºçš„é—®é¢˜
+10-11-2022ï¼šSystemBasic:    æ·»åŠ äº†æ•°å­—åˆæ³•æ€§çš„æ–¹æ³•
+10-11-2022ï¼šSystemBasic:    æ·»åŠ äº†åˆ¤æ–­å¤±è¯¯æ¬¡æ•°çš„æ–¹æ³•
+11-11-2022ï¼šBook:           ä¿®å¤äº†bookData.txtæ— æ³•è¯»å–çš„é—®é¢˜
+11-11-2022ï¼šBook:           æ·»åŠ äº†å›¾ä¹¦ä»·æ ¼åˆæ³•æ€§çš„åˆ¤æ–­
+11-11-2022ï¼šBook:           æ·»åŠ äº†åœ¨å›¾ä¹¦æŸ¥çœ‹é¡µé¢å›¾ä¹¦åº“å­˜çš„åˆ¤æ–­
+11-11-2022ï¼šBook:           ä¿®å¤äº†å›¾ä¹¦æŸ¥çœ‹é¡µé¢çš„å€Ÿå‡ºçŠ¶æ€é”™è¯¯çš„é—®é¢˜
+11-11-2022ï¼šSystemBasic:    ä¿®å¤äº†é‡æ–°è¿›å…¥ç³»ç»Ÿæ—¶ä¹¦ç±ä»“åº“ä¸¢å¤±çš„é—®é¢˜
+11-11-2022ï¼šSystemBasic:    æ·»åŠ äº†æ— bookData.txtçš„ä¿®å¤åŠŸèƒ½
+11-11-2022ï¼šBook:           æ·»åŠ äº†åœ¨æ·»åŠ ä¹¦ç±æ—¶å›¾ä¹¦ISBNç¼–å·çš„åˆ¤æ–­åŠŸèƒ½
+11-11-2022ï¼šBook:           ä¿®å¤äº†åœ¨æ·»åŠ å›¾ä¹¦æ—¶ï¼Œå›¾ä¹¦ä»·æ ¼ä¸åˆæ³•å´æ— æ³•åˆ¤æ–­çš„é—®é¢˜
+11-11-2022: Book:           æ·»åŠ äº†åˆ é™¤å…¨éƒ¨ä¹¦ç±çš„åŠŸèƒ½
+11-11-2022: SystemBasic:    æ·»åŠ äº†å½©è‰²å­—ä½“
+11-11-2022: SystemBasic:    æ·»åŠ äº†è“å±å’Œä¿®å¤æ¨¡å¼ :-)
+11-11-2022: SystemBasic:    ä¿®æ”¹äº†bookData.txtçš„ä¿®å¤ç•Œé¢
+12-11-2022ï¼šSystemBasic:    ä¿®å¤äº†åœ¨è“å±æ—¶è¿›åº¦æ¡è¶…å‡º100%çš„é—®é¢˜
+12-11-2022ï¼šSystemBasic:    æ·»åŠ äº†ç”¨äºŽèŽ·å–ç³»ç»Ÿæ—¶é—´çš„æ–¹æ³•
+12-11-2022ï¼šBook:           è®¾ç½®äº†ç”¨æˆ·å€Ÿé˜…æ—¶è‡ªåŠ¨å¡«å†™å€Ÿé˜…æ—¶é—´
 
-12-11-2022: µÚ¶þ°æ
-12-11-2022: Lend:           Ìí¼ÓÁËLendÀàÓÃÓÚ´¢´æÓÃ»§½èÔÄÐÅÏ¢
-12-11-2022: Book:           Ìí¼ÓÁËÊý¾ÝÖÐlendHeadÖ¸ÕëÓÃÓÚÖ¸ÏòµÚÒ»¸öLendÀàÊý¾ÝÒÔÏÔÊ¾½èÔÄÐÅÏ¢
-12-11-2022: Book:           ÐÞ¸´ÁËÎÞ²ØÊéÊ±Ò²ÄÜÐÞ¸ÄÊé¼®ÐÅÏ¢µÄÎÊÌâ
-12-11-2022: Book:           ÐÞ¸´ÁË²¿·Ö½çÃæÎÞ·¨ÍË³öµÄÎÊÌâ
-12-11-2022: Lend:           ÐÞ¸´ÁË²¿·ÖÅÅ°æ
-12-11-2022: Book:           Ìí¼ÓÁËLendÖÐÐÅÏ¢µÄÎÄ¼þ¶ÁÐ´²Ù×÷
-12-11-2022: Book:           ÐÞ¸´ÁËLendÖÐÐÅÏ¢µÄÎÄ¼þ¶ÁÐ´´íÎóµ¼ÖÂÊý¾Ý¶ªÊ§µÄÎÊÌâ
-12-11-2022: SystemBasic:    Ìí¼ÓÁË»ñÈ¡ÏµÍ³Ê±¼ä·½·¨µÄÄ£Ê½
-12-11-2022: SystemBasic:    ½â¾öÁËÓÉÓÚÁâÐÎ¼Ì³Ðµ¼ÖÂµÄ·½·¨³åÍ»
-12-11-2022: Book:           É¾³ýÁËBookÖÐ²¿·ÖÆúÓÃÊý¾Ý£ºlendUserId,lendUserName,lendTime
-12-11-2022: main:           Ìí¼ÓÁËÖ÷½çÃæ
-12-11-2022: SystemBasic:    Ìí¼ÓÁËÖ÷½çÃæÏÔÊ¾ÏµÍ³Ê±¼ä
-13-11-2022: SystemBasic:    Ìí¼ÓÁËÊó±ê¹â±êµÄÒþ²ØºÍÏÔÊ¾¹¦ÄÜ£¬²¢½«ÆäÔËÓÃÔÚÀ¶ÆÁ½çÃæ
-13-11-2022: Book:           ÐÞ¸ÄÎÄ¼þ±£´æ·½Ê½£¬ÌÞ³ýÈßÓàÊý¾Ý
-13-11-2022: Book & Lend:    ÌÞ³ýÈ«²¿ÎÞÓÃµÄ×¢ÊÍ´úÂë
-13-11-2022: SystemBasic:    Ìí¼ÓÁË¹ÜÀíÔ±ÐÞ¸Ä¹ÜÀíÔ±ÓÃ»§µÄ¹¦ÄÜ
-13-11-2022: Book:           ÐÞ¸´ÁË¹ÜÀíÔ±ÐÞ¸ÄµÄÊý¾ÝÎÞ·¨±£´æµÄÎÊÌâ
-13-11-2022: main:           Ìí¼ÓÁËÔ¤¼ÓÔØ½çÃæ
-14-11-2022: main:           Ìí¼ÓÁËÔ¤¼ÓÔØ½çÃæµÄ¼ÓÔØÍ¼ :-)
-14-11-2022: Book:           ÐÞ¸ÄÁËBookÖÐ²¿·ÖÇé¿öÎÞ·¨ÍË³ö¡¢ÒâÍâÍË³öµÄÎÊÌâ
-14-11-2022: Lend:           ÐÞ¸ÄÁËnextÖ¸ÕëµÄÈ¨ÏÞ£¨°ÚÀÃÁË£©
-14-11-2022: main:           Ìí¼ÓÁËÖ÷½çÃæµÄ×÷Æ·ÐÅÏ¢
+12-11-2022: ç¬¬äºŒç‰ˆ
+12-11-2022: Lend:           æ·»åŠ äº†Lendç±»ç”¨äºŽå‚¨å­˜ç”¨æˆ·å€Ÿé˜…ä¿¡æ¯
+12-11-2022: Book:           æ·»åŠ äº†æ•°æ®ä¸­lendHeadæŒ‡é’ˆç”¨äºŽæŒ‡å‘ç¬¬ä¸€ä¸ªLendç±»æ•°æ®ä»¥æ˜¾ç¤ºå€Ÿé˜…ä¿¡æ¯
+12-11-2022: Book:           ä¿®å¤äº†æ— è—ä¹¦æ—¶ä¹Ÿèƒ½ä¿®æ”¹ä¹¦ç±ä¿¡æ¯çš„é—®é¢˜
+12-11-2022: Book:           ä¿®å¤äº†éƒ¨åˆ†ç•Œé¢æ— æ³•é€€å‡ºçš„é—®é¢˜
+12-11-2022: Lend:           ä¿®å¤äº†éƒ¨åˆ†æŽ’ç‰ˆ
+12-11-2022: Book:           æ·»åŠ äº†Lendä¸­ä¿¡æ¯çš„æ–‡ä»¶è¯»å†™æ“ä½œ
+12-11-2022: Book:           ä¿®å¤äº†Lendä¸­ä¿¡æ¯çš„æ–‡ä»¶è¯»å†™é”™è¯¯å¯¼è‡´æ•°æ®ä¸¢å¤±çš„é—®é¢˜
+12-11-2022: SystemBasic:    æ·»åŠ äº†èŽ·å–ç³»ç»Ÿæ—¶é—´æ–¹æ³•çš„æ¨¡å¼
+12-11-2022: SystemBasic:    è§£å†³äº†ç”±äºŽè±å½¢ç»§æ‰¿å¯¼è‡´çš„æ–¹æ³•å†²çª
+12-11-2022: Book:           åˆ é™¤äº†Bookä¸­éƒ¨åˆ†å¼ƒç”¨æ•°æ®ï¼šlendUserId,lendUserName,lendTime
+12-11-2022: main:           æ·»åŠ äº†ä¸»ç•Œé¢
+12-11-2022: SystemBasic:    æ·»åŠ äº†ä¸»ç•Œé¢æ˜¾ç¤ºç³»ç»Ÿæ—¶é—´
+13-11-2022: SystemBasic:    æ·»åŠ äº†é¼ æ ‡å…‰æ ‡çš„éšè—å’Œæ˜¾ç¤ºåŠŸèƒ½ï¼Œå¹¶å°†å…¶è¿ç”¨åœ¨è“å±ç•Œé¢
+13-11-2022: Book:           ä¿®æ”¹æ–‡ä»¶ä¿å­˜æ–¹å¼ï¼Œå‰”é™¤å†—ä½™æ•°æ®
+13-11-2022: Book & Lend:    å‰”é™¤å…¨éƒ¨æ— ç”¨çš„æ³¨é‡Šä»£ç 
+13-11-2022: SystemBasic:    æ·»åŠ äº†ç®¡ç†å‘˜ä¿®æ”¹ç®¡ç†å‘˜ç”¨æˆ·çš„åŠŸèƒ½
+13-11-2022: Book:           ä¿®å¤äº†ç®¡ç†å‘˜ä¿®æ”¹çš„æ•°æ®æ— æ³•ä¿å­˜çš„é—®é¢˜
+13-11-2022: main:           æ·»åŠ äº†é¢„åŠ è½½ç•Œé¢
+14-11-2022: main:           æ·»åŠ äº†é¢„åŠ è½½ç•Œé¢çš„åŠ è½½å›¾ :-)
+14-11-2022: Book:           ä¿®æ”¹äº†Bookä¸­éƒ¨åˆ†æƒ…å†µæ— æ³•é€€å‡ºã€æ„å¤–é€€å‡ºçš„é—®é¢˜
+14-11-2022: Lend:           ä¿®æ”¹äº†nextæŒ‡é’ˆçš„æƒé™ï¼ˆæ‘†çƒ‚äº†ï¼‰
+14-11-2022: main:           æ·»åŠ äº†ä¸»ç•Œé¢çš„ä½œå“ä¿¡æ¯
 
-14-11-2022: µÚÈý°æ
-14-11-2022: all:            ÐÞ¸´ÁË´óÁ¿½çÃæÖÐÒì³£ÍË³öµÄÎÊÌâ
+14-11-2022: ç¬¬ä¸‰ç‰ˆ
+14-11-2022: all:            ä¿®å¤äº†å¤§é‡ç•Œé¢ä¸­å¼‚å¸¸é€€å‡ºçš„é—®é¢˜
 
 
 */
-// LibraryProgram.cpp : ´ËÎÄ¼þ°üº¬ "main" º¯Êý¡£³ÌÐòÖ´ÐÐ½«ÔÚ´Ë´¦¿ªÊ¼²¢½áÊø¡£
+// LibraryProgram.cpp : æ­¤æ–‡ä»¶åŒ…å« "main" å‡½æ•°ã€‚ç¨‹åºæ‰§è¡Œå°†åœ¨æ­¤å¤„å¼€å§‹å¹¶ç»“æŸã€‚
 
 #include "Book.h"
 using namespace std;
 
-//È«¾Ö±äÁ¿! BookµÄhead
+//å…¨å±€å˜é‡! Bookçš„head
 Book *head = new Book;
 
 void welcomeAndLoad()
 {
-    // system("color 1");//À¶É«
-    cout << "       ===    »¶Ó­½øÈëHNITÍ¼Êé¹ÜÀíÏµÍ³!   ===" << endl;
+    // system("color 1");//è“è‰²
+    cout << "       ===    æ¬¢è¿Žè¿›å…¥HNITå›¾ä¹¦ç®¡ç†ç³»ç»Ÿ!   ===" << endl;
     BLUE;
     HIDDEN_CURSOR; ///
     cout << "loading ";
@@ -96,7 +96,7 @@ void welcomeAndLoad()
 
 int main()
 {
-    // std::ios::sync_with_stdio(false);//È¡Ïûstd::cinÓëscanf()µÄÍ¬²½£¬ÒÔ¼Ó¿ìcinµÄ¶ÁÈ¡ËÙ¶È
+    // std::ios::sync_with_stdio(false);//å–æ¶ˆstd::cinä¸Žscanf()çš„åŒæ­¥ï¼Œä»¥åŠ å¿«cinçš„è¯»å–é€Ÿåº¦
     welcomeAndLoad();
     while (1)
     {
@@ -111,46 +111,46 @@ int main()
             // int failTimes=0;
             // while(head->sysLogin())
             // {
-            //     cout << "ÇëÖØÐÂÊäÈë£º"<< endl;
+            //     cout << "è¯·é‡æ–°è¾“å…¥ï¼š"<< endl;
             //     if(head->failTimes(++failTimes)) break;
             // }
             if (!head->sysLogin(head->returnName(), head->returnPassword()))
                 head->adminBookMenu(head);
             else
             {
-                cout << "°´ÈÎÒâ¼üÒÔ·µ»ØÉÏ¼¶";
+                cout << "æŒ‰ä»»æ„é”®ä»¥è¿”å›žä¸Šçº§";
                 _getch();
             }
         }
         else if (input == 2)
         {
-            cout << "¹ØÓÚÎÒÃÇ£º\n\t¸ÃÍ¼Êé¹ÜÀíÈí¼þÖ¼ÔÚ½«Í¼Êé¹ÜÀíÔ±\n´Ó·±ÖØÍ¼Êé¹ÜÀíÄ£Ê½ÏÂÕü¾È³öÈ¥£¡" << endl;
+            cout << "å…³äºŽæˆ‘ä»¬ï¼š\n\tè¯¥å›¾ä¹¦ç®¡ç†è½¯ä»¶æ—¨åœ¨å°†å›¾ä¹¦ç®¡ç†å‘˜\nä»Žç¹é‡å›¾ä¹¦ç®¡ç†æ¨¡å¼ä¸‹æ‹¯æ•‘å‡ºåŽ»ï¼" << endl;
             _getch();
             cout << endl;
         }
         else if (input == 3)
         {
-            cout << "¶®²»¶®ÊìÄÜÉúÇÉÕâ¸öµÀÀí°¡Î¹£¨Õ½ÊõºóÑö£©¡£" << endl;
+            cout << "æ‡‚ä¸æ‡‚ç†Ÿèƒ½ç”Ÿå·§è¿™ä¸ªé“ç†å•Šå–‚ï¼ˆæˆ˜æœ¯åŽä»°ï¼‰ã€‚" << endl;
             _getch();
             cout << endl;
         }
         else if (input == 4)
         {
             BLUE;
-            cout << "Ð¡¶Ó³ÉÔ±£ºÁºÃÎæÃ,Ì·Áá½à,ÍôÔó¶«,ÂÞÔ½" << endl;
+            cout << "å°é˜Ÿæˆå‘˜ï¼šJoker_Yue" << endl;
             YELLOW;
-            cout << "ÌØÉ«¹¦ÄÜ£ºÎÄ¼þ´¢´æ,ÏµÍ³¶à¼¶²Ëµ¥,²ÊÉ«×ÖÌå,¶¯Ì¬´æ´¢,ÃÜÂëÏµÍ³,ÏµÍ³Ê±¼ä" << endl;
+            cout << "ç‰¹è‰²åŠŸèƒ½ï¼šæ–‡ä»¶å‚¨å­˜,ç³»ç»Ÿå¤šçº§èœå•,å½©è‰²å­—ä½“,åŠ¨æ€å­˜å‚¨,å¯†ç ç³»ç»Ÿ,ç³»ç»Ÿæ—¶é—´" << endl;
             PINK;
-            cout << "¼¼Êõ¼ò½é: ¶¯Ì¬Á´±í,ÎÄ¼þ¶ÁÐ´,ºêÖ¸Áî,Windows¿â" << endl;
+            cout << "æŠ€æœ¯ç®€ä»‹: åŠ¨æ€é“¾è¡¨,æ–‡ä»¶è¯»å†™,å®æŒ‡ä»¤,Windowsåº“" << endl;
             WHITE;
             _getch();
             cout << endl;
         }
         else
         {
-            RED; //ºìÉ«
-            cout << "ÕýÔÚÍË³öÏµÍ³..." << endl;
-            WHITE; //°×É«
+            RED; //çº¢è‰²
+            cout << "æ­£åœ¨é€€å‡ºç³»ç»Ÿ..." << endl;
+            WHITE; //ç™½è‰²
             return 0;
         }
     }
