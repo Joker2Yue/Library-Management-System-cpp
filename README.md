@@ -81,11 +81,8 @@
 
 #### 系统详解
 
-图书管理系统            |  系统详解
-:-------------------------:|:-------------------------:
 
-<img width="200" alt="Book" src="https://user-images.githubusercontent.com/95990919/209258786-9c32954f-7c51-42dc-96cc-33f9f15beba9.png">  |  
-<img width="200" alt="Book" src="https://user-images.githubusercontent.com/95990919/209259022-af2d590f-6dbe-499d-8174-856457189b6b.jpg">
+<img width="200" alt="Book" src="https://user-images.githubusercontent.com/95990919/209258786-9c32954f-7c51-42dc-96cc-33f9f15beba9.png"> <img width="200" alt="Book" src="https://user-images.githubusercontent.com/95990919/209259022-af2d590f-6dbe-499d-8174-856457189b6b.jpg">
 
 
 <img  alt="Book" src="https://user-images.githubusercontent.com/95990919/209259076-ad954fee-3b41-486f-8b8e-639c9168d4c0.jpg">
