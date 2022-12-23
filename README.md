@@ -23,6 +23,7 @@
 * 没啥背景单纯用来应付下学校的期末作业（流汗）
 
 #### 更新日志
+~~~C++
 10-11-2022：第一版
 10-11-2022: 类的总体设计:    请参见"/src/Book.svg"和"/src/Book.md"
 10-11-2022: SystemBasic:    添加了SystemBasic类并设计了大量方法用于继承与使用
@@ -76,6 +77,7 @@
 
 14-11-2022: 第三版
 14-11-2022: all:            修复了大量界面中异常退出的问题
+~~~
 
 #### 系统详解
 <img width="1154" alt="Book" src="https://user-images.githubusercontent.com/95990919/209258097-4f0fb0a4-06a3-43ac-8e2f-6c9eb3cb7a9a.png">
