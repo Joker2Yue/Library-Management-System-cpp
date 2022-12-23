@@ -88,7 +88,7 @@
 
 
 #### 系统截图
-![image](https://user-images.githubusercontent.com/95990919/209257740-bd1a92ac-290d-4a93-9c46-7a13bf2d50d8.png =500)
-![image](https://user-images.githubusercontent.com/95990919/209257756-4604eedb-18ac-44f7-9ad4-f1164cb2660e.png =500)
-![image](https://user-images.githubusercontent.com/95990919/209257789-5bdca6b6-d0db-4add-b09c-c0f52f9404cd.png =500)
-![image](https://user-images.githubusercontent.com/95990919/209257834-a90a511a-f018-41c9-af64-21159ef15ecc.png =500)
+![image](https://user-images.githubusercontent.com/95990919/209257740-bd1a92ac-290d-4a93-9c46-7a13bf2d50d8.png)
+![image](https://user-images.githubusercontent.com/95990919/209257756-4604eedb-18ac-44f7-9ad4-f1164cb2660e.png)
+![image](https://user-images.githubusercontent.com/95990919/209257789-5bdca6b6-d0db-4add-b09c-c0f52f9404cd.png)
+![image](https://user-images.githubusercontent.com/95990919/209257834-a90a511a-f018-41c9-af64-21159ef15ecc.png)
